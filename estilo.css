@@ -1,0 +1,58 @@
+body,ul,li,p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    body{
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    p{
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    h1{
+        font-family: Fraunces;
+    }
+
+    img{
+        margin-top: 27vh;
+        margin-left: 29vw;
+        width: 21vw;
+        height: 54vh;
+ 
+    }
+
+    .container{
+        margin-top: 27vh;
+        margin-right: 28.5vw;
+        max-width: 21vw;
+        height: 54vh;
+        background-color: hsl(0, 0%, 100%);
+        text-align: left;
+        float: right;
+    }
+
+    .description{
+        text-align: justify;
+    }
+
+    .price h1{
+        color: hsl(158, 36%, 37%);
+    }
+
+    .price p{
+        font-family: Fraunces;
+        font-size: 12px;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .price h1, .price p {
+        display: inline;
+}
+@media screen and (max-width:992px){
+    
+}
