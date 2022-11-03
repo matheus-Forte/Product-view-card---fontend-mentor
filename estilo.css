@@ -53,6 +53,10 @@ body,ul,li,p {
     .price h1, .price p {
         display: inline;
 }
+
+    .type, .name, .description, .price {
+        padding: 2vw;
+    }
 @media screen and (max-width:992px){
     
 }
